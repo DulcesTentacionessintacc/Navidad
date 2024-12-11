@@ -22,29 +22,19 @@
       </p>
 
       <label for="relleno1" class="formulario__label"
-        >ELIJA EL PEDIDO</label
+        >ELIJA LA OPCION NAVIDEÑA</label
       >
       <select id="listacremas" name="listacremas" class="formulario__input2" required="" onchange="javascript: cambia_cremas(this.options[this.selectedIndex].value); precio()">
-        <option value="">-- SELECCIONE EL PEDIDO --</option>
-        <option value="PAN CHIPS - CHICO">PAN CHIPS - CHICO</option>
-        <option value="PAN CHIPS - GRANDE">PAN CHIPS - GRANDE</option>
-        <option value="PAN RELLENO - CHICO">PAN RELLENO - CHICO</option>
-        <option value="PAN RELLENO - GRANDE">PAN RELLENO - GRANDE</option>
-        <option value="PAN FIT - CHICO">PAN FIT - CHICO</option>
-        <option value="PAN FIT - GRANDE">PAN FIT - GRANDE</option>
-        <option value="PANETONNE - CHICO">PANETONNE - CHICO</option>
-        <option value="PANETONNE - GRANDE">PANETONNE - GRANDE</option>
+        <option value="">-- SELECCIONE --</option>
+        <option value="PAN CHIPS">PAN CHIPS</option>
+        <option value="PAN RELLENO">PAN RELLENO</option>
+        <option value="PAN FIT">PAN FIT</option>
+        <option value="PANETONNE">PANETONNE</option>
         <option value="BUDIN INGLES">BUDIN INGLES</option>
         <option value="BUDIN RELLENO">BUDIN RELLENO</option>
-        <option value="PACK N°1 - A">PACK N°1 - A</option>
-        <option value="PACK N°1 - B">PACK N°1 - B</option>
-        <option value="PACK N°2 - A">PACK N°2 - A</option>
-        <option value="PACK N°2 - B">PACK N°2 - B</option>
         <option value="TRONCO DE ARBOL">TRONCO DE ARBOL</option>
-        <option value="BOMBAS CREMAS X 12">BOMBAS CREMAS X 12</option>
-        <option value="BOMBAS MIXTAS X 12">BOMBAS MIXTAS X 12</option>
-        <option value="COMBO NAVIDAD DOLCE - N°1">COMBO NAVIDAD DOLCE - N°1</option>
-        <option value="COMBO NAVIDAD DOLCE - N°2">COMBO NAVIDAD DOLCE - N°2</option>         
+        <option value="BOMBAS">BOMBAS</option>
+        <option value="COMBO NAVIDEÑO">COMBO NAVIDEÑO</option>
       </select>
       <p>
         <h4 id="des1" class="formulario__label2"></h4>
@@ -52,15 +42,22 @@
       <div id="imagenTorta" class="formulario__imagen">
       </div>
      
-       <label for="tamaño" class="formulario__label"
+      <label for="relleno2" class="formulario__label"
+        >TAMAÑO</label>
+      
+        <select id="cremas" name="cremas" class="formulario__input" onchange="precio()" >
+          <option value="">-- ELIJA UN TAMAÑO --</option>
+         </select>
+
+      <label for="tamaño" class="formulario__label"
         >FECHA DE ENTREGA</label>
 
-    <select id="fechas" name="fechas" class="formulario__input" required="">
-      <option>-- ELIJA --</option>
-      <option value="VIERNES 20 DE DICIEMBRE">VIERNES 20 DE DICIEMBRE</option>
-      <option value="LUNES 23 DE DICIEMBRE">LUNES 23 DE DICIEMBRE</option>
-      <option value="MARTES 24 DE DICIEMBRE">MARTES 24 DE DICIEMBRE</option>
-    </select>
+      <select id="fechas" name="fechas" class="formulario__input" required="">
+        <option>-- ELIJA --</option>
+        <option value="VIERNES 20 DE DICIEMBRE">VIERNES 20 DE DICIEMBRE</option>
+        <option value="LUNES 23 DE DICIEMBRE">LUNES 23 DE DICIEMBRE</option>
+        <option value="MARTES 24 DE DICIEMBRE">MARTES 24 DE DICIEMBRE</option>
+      </select>
 
       <label for="tamaño" class="formulario__label"
         >HORARIO</label>
@@ -84,7 +81,7 @@
         placeholder="Indica cuál es tu nombre completo"
       />
       <h3 class="formulario__subtitulo2">PARA RESERVAR DEBE SEÑAR EL 50%</h3>
-
+      
       <img src="1.png" class="imgbank" />
      
       <div id="respuesta" class="formulario__label2"></div>
