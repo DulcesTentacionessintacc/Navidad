@@ -170,13 +170,13 @@ else if (listacremas == "BOMBAS"){
   imagenTorta.innerHTML = '<img src="bombasx.jpg" alt="Torta Rogel" class="imgTorta" />';
 }
 else if (listacremas == "PARA REGALAR PACK N°1"){
-  imagenTorta.innerHTML = '<img src="combonav.jpg" alt="Torta Rogel" class="imgTorta" />';
+  imagenTorta.innerHTML = '<img src="regalo.png" alt="Torta Rogel" class="imgTorta" />';
 }
 else if (listacremas == "PARA REGALAR PACK N°2"){
-  imagenTorta.innerHTML = '<img src="combonav.jpg" alt="Torta Rogel" class="imgTorta" />';
+  imagenTorta.innerHTML = '<img src="regalo.png" alt="Torta Rogel" class="imgTorta" />';
 }
 else if (listacremas == "COMBO DOLCE"){
-  imagenTorta.innerHTML = '<img src="combonav.jpg" alt="Torta Rogel" class="imgTorta" />';
+  imagenTorta.innerHTML = '<img src="dolce.png" alt="Torta Rogel" class="imgTorta" />';
 }
 else{}
 }
