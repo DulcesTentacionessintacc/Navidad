@@ -137,12 +137,10 @@ else if (listacremas == "PARA REGALAR PACK N°2" && cremas == "PAN CHIPS GRANDE 
 else if (listacremas == "PARA REGALAR PACK N°2" && cremas == "PAN CHIPS GRANDE + BUDIN RELLENO"){
   document.getElementById("salida").innerHTML = "$25500";
 }
-else if (listacremas == "COMBO DOLCE" && cremas == "COMBO NAVIDAD DOLCE - N°1"){
-   document.getElementById("des1").innerHTML = "MIGAS POR 6 UNIDADES<br><br>1 PAN CHICO A ELECCION (Chips o Relleno)<br><br> 1 BUDIN A ELECCION (Ingles o Relleno)";
+else if (listacremas == "COMBO DOLCE N°1" && cremas == "COMBO NAVIDAD DOLCE - N°1"){
    document.getElementById("salida").innerHTML = "$30000";
 }
-else if (listacremas == "COMBO DOLCE" && cremas == "COMBO NAVIDAD DOLCE - N°2"){
-  document.getElementById("des1").innerHTML = "MIGAS POR 12 UNIDADES<br><br> 1 PANETONNE CHICO<br><br>1 PAN CHICO A ELECCION(Chips  o Relleno)<br><br>1 BUDIN A ELECCION (Ingles o Relleno)";
+else if (listacremas == "COMBO DOLCE N°2" && cremas == "COMBO NAVIDAD DOLCE - N°2"){
   document.getElementById("salida").innerHTML = "$55000";
 }
 else if (listacremas == "PAN CHIPS"){
@@ -173,11 +171,17 @@ else if (listacremas == "PARA REGALAR PACK N°1"){
   imagenTorta.innerHTML = '<img src="regalo.png" alt="Torta Rogel" class="imgTorta" />';
 }
 else if (listacremas == "PARA REGALAR PACK N°2"){
-  imagenTorta.innerHTML = '<img src="regalo.png" alt="Torta Rogel" class="imgTorta" />';
+  imagenTorta.innerHTML = '<img src="regalo2.png" alt="Torta Rogel" class="imgTorta" />';
 }
-else if (listacremas == "COMBO DOLCE"){
+else if (listacremas == "COMBO DOLCE N°1"){
+  document.getElementById("des1").innerHTML = "MIGAS POR 6 UNIDADES<br><br>1 PAN CHICO A ELECCION (Chips o Relleno)<br><br> 1 BUDIN A ELECCION (Ingles o Relleno)";
   imagenTorta.innerHTML = '<img src="dolce.png" alt="Torta Rogel" class="imgTorta" />';
 }
+else if (listacremas == "COMBO DOLCE N°2"){
+  document.getElementById("des1").innerHTML = "MIGAS POR 12 UNIDADES<br><br> 1 PANETONNE CHICO<br><br>1 PAN CHICO A ELECCION(Chips  o Relleno)<br><br>1 BUDIN A ELECCION (Ingles o Relleno)";
+  imagenTorta.innerHTML = '<img src="dolce.png" alt="Torta Rogel" class="imgTorta" />';
+}
+
 else{}
 }
 
