@@ -106,12 +106,6 @@ else if (listacremas == "PANETONNE" && cremas == "CHICO"){
 else if (listacremas == "PANETONNE" && cremas == "GRANDE"){
   document.getElementById("salida").innerHTML = "$32400";
 }
-else if (listacremas == "BUDIN INGLES" && cremas == "UNICO TAMAÑO"){
-  document.getElementById("salida").innerHTML = "$11900";
-}
-else if (listacremas == "BUDIN RELLENO" && cremas == "UNICO TAMAÑO"){
-  document.getElementById("salida").innerHTML = "$10000";
-}
 else if (listacremas == "TRONCO DE ARBOL" && cremas == "UNICO TAMAÑO"){
   document.getElementById("salida").innerHTML = "$20000";
 }
@@ -134,9 +128,11 @@ else if (listacremas == "PARA REGALAR PACK N°2" && cremas == "PAN CHIPS GRANDE 
   document.getElementById("salida").innerHTML = "$25500";
 }
 else if (listacremas == "COMBO DOLCE" && cremas == "COMBO NAVIDAD DOLCE - N°1"){
-  document.getElementById("salida").innerHTML = "$30000";
+   document.getElementById("des1").innerHTML = "MIGAS POR 6 UNIDADES<br><br>1 PAN CHICO A ELECCION (Chips o Relleno)<br><br> 1 BUDIN A ELECCION (Ingles o Relleno)";
+   document.getElementById("salida").innerHTML = "$30000";
 }
 else if (listacremas == "COMBO DOLCE" && cremas == "COMBO NAVIDAD DOLCE - N°2"){
+  document.getElementById("des1").innerHTML = "MIGAS POR 12 UNIDADES<br><br> 1 PANETONNE CHICO<br><br>1 PAN CHICO A ELECCION(Chips  o Relleno)<br><br>1 BUDIN A ELECCION (Ingles o Relleno)";
   document.getElementById("salida").innerHTML = "$55000";
 }
 else if (listacremas == "PAN CHIPS"){
@@ -155,14 +151,6 @@ else if (listacremas == "PANETONNE"){
   document.getElementById("des1").innerHTML = "- LINEA PREMIUM -<br><br>MIX DE FRUTOS SECOS Y GLASE";
  imagenTorta.innerHTML = '<img src="panetone.jpg" alt="Torta Rogel" class="imgTorta" />';
 }
-else if (listacremas == "BUDIN INGLES"){
-  document.getElementById("des1").innerHTML = "Peso aprox. 300 gr.";
- imagenTorta.innerHTML = '<img src="budini.jpg" alt="Torta Rogel" class="imgTorta" />';
-}
-else if (listacremas == "BUDIN RELLENO"){
-  document.getElementById("des1").innerHTML = "RELLENO DE DULCE DE LECHE<br><br>Peso aprox. 300 gr.";
- imagenTorta.innerHTML = '<img src="budinr.jpg" alt="Torta Rogel" class="imgTorta" />';
-}
 else if (listacremas == "TRONCO DE ARBOL"){
   document.getElementById("des1").innerHTML = "RINDE 10 PORCIONES";
  imagenTorta.innerHTML = '<img src="tronco.jpg" alt="Torta Rogel" class="imgTorta" />';
@@ -171,15 +159,15 @@ else if (listacremas == "BOMBAS"){
   document.getElementById("des1").innerHTML = "12 UNIDADES";
   imagenTorta.innerHTML = '<img src="bombasx.jpg" alt="Torta Rogel" class="imgTorta" />';
 }
-else if (listacremas == "COMBO NAVIDEÑO" && cremas == "COMBO NAVIDAD DOLCE - N°1"){
-  document.getElementById("des1").innerHTML = "MIGAS POR 6 UNIDADES<br><br>1 PAN CHICO A ELECCION (Chips o Relleno)<br><br> 1 BUDIN A ELECCION (Ingles o Relleno)";
+else if (listacremas == "PARA REGALAR PACK N°1"){
   imagenTorta.innerHTML = '<img src="combonav.jpg" alt="Torta Rogel" class="imgTorta" />';
 }
-else if (listacremas == "COMBO NAVIDEÑO" && cremas == "COMBO NAVIDAD DOLCE - N°2"){
-  document.getElementById("des1").innerHTML = "MIGAS POR 12 UNIDADES<br><br> 1 PANETONNE CHICO<br><br>1 PAN CHICO A ELECCION(Chips  o Relleno)<br><br>1 BUDIN A ELECCION (Ingles o Relleno)";
+else if (listacremas == "PARA REGALAR PACK N°2"){
   imagenTorta.innerHTML = '<img src="combonav.jpg" alt="Torta Rogel" class="imgTorta" />';
 }
-
+else if (listacremas == "COMBO DOLCE"){
+  imagenTorta.innerHTML = '<img src="combonav.jpg" alt="Torta Rogel" class="imgTorta" />';
+}
 else{}
 }
 
