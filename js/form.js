@@ -205,16 +205,14 @@ document.querySelector("#submit").addEventListener("click", e => {
 		${cliente}%0A%0A
 		*Indica el pedido*%0A
 		${listacremas}%0A%0A
-		*Indica el tamaño*%0A
+		*Indica el tamaño/pack*%0A
 		${cremas}%0A%0A
-    *FECHA DE ENTREGA*%0A
+                *FECHA DE ENTREGA*%0A
 		${fechas}%0A%0A
-    *HORARIO*%0A
-		${horario}%0A%0A
-    *Precio*%0A
+                *Precio*%0A
 		${salida}%0A%0A`;
 
-  if (cliente === "" || listacremas === "" || cremas === "" || fechas === "" || horario === "") {
+  if (cliente === "" || listacremas === "" || cremas === "" || fechas === "") {
     resp.classList.add("fail");
     resp.innerHTML = `Faltan algunos datos, ${cliente}`;
     return false;
