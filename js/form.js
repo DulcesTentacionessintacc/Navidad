@@ -86,13 +86,13 @@ if(listacremas == "PAN CHIPS" && cremas == "CHICO"){
   document.getElementById("salida").innerHTML = "$9800";
 }
 else if (listacremas == "PAN CHIPS" && cremas == "GRANDE"){
-  document.getElementById("salida").innerHTML = "$18500";
+  document.getElementById("salida").innerHTML = "$17100";
 }
 else if (listacremas == "PAN RELLENO" && cremas == "CHICO"){
   document.getElementById("salida").innerHTML = "$9500";
 }
 else if (listacremas == "PAN RELLENO" && cremas == "GRANDE"){
-  document.getElementById("salida").innerHTML = "$18000";
+  document.getElementById("salida").innerHTML = "$17500";
 }
 else if (listacremas == "PAN FIT" && cremas == "CHICO"){
   document.getElementById("salida").innerHTML = "$14000";
@@ -101,10 +101,10 @@ else if (listacremas == "PAN FIT" && cremas == "GRANDE"){
   document.getElementById("salida").innerHTML = "$26200";
 }
 else if (listacremas == "PANETONNE" && cremas == "CHICO"){
-  document.getElementById("salida").innerHTML = "$16500";
+  document.getElementById("salida").innerHTML = "$16800";
 }
 else if (listacremas == "PANETONNE" && cremas == "GRANDE"){
-  document.getElementById("salida").innerHTML = "$31500";
+  document.getElementById("salida").innerHTML = "$32400";
 }
 else if (listacremas == "BUDIN INGLES" && cremas == "UNICO TAMAÑO"){
   document.getElementById("salida").innerHTML = "$11900";
