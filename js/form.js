@@ -73,13 +73,13 @@ document.tortas.cremas.options[2]=new Option("PAN CHIPS GRANDE + BUDIN RELLENO",
 
 break;
 
-case COMBO DOLCE N°1" :
+case "COMBO DOLCE N°1" :
 document.tortas.cremas.options[0]=new Option("-- ELIJA UNA OPCION --","-- ELIJA UNA OPCION --");
 document.tortas.cremas.options[1]=new Option("UNICA OPCION","UNICA OPCION");
 
 break;
 
-case COMBO DOLCE N°2" :
+case "COMBO DOLCE N°2" :
 document.tortas.cremas.options[0]=new Option("-- ELIJA UNA OPCION --","-- ELIJA UNA OPCION --");
 document.tortas.cremas.options[1]=new Option("UNICA OPCION","UNICA OPCION");
 
