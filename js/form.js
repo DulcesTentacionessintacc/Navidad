@@ -59,17 +59,27 @@ document.tortas.cremas.options[2]=new Option("BOMBAS MIXTAS X 12","BOMBAS MIXTAS
 
 break;
 
-case "COMBO NAVIDEÑO" :
+case "PARA REGALAR PACK N°1" :
 document.tortas.cremas.options[0]=new Option("-- ELIJA UN TAMAÑO --","-- ELIJA UN TAMAÑO --");
 document.tortas.cremas.options[1]=new Option("PAN RELLENO GRANDE + BUDIN INGLES","PAN RELLENO GRANDE + BUDIN INGLES");
 document.tortas.cremas.options[2]=new Option("PAN RELLENO GRANDE + BUDIN RELLENO","PAN RELLENO GRANDE + BUDIN RELLENO");
-document.tortas.cremas.options[3]=new Option("PAN CHIPS GRANDE + BUDIN INGLES","PAN CHIPS GRANDE + BUDIN INGLES");
-document.tortas.cremas.options[4]=new Option("PAN CHIPS GRANDE + BUDIN RELLENO","PAN CHIPS GRANDE + BUDIN RELLENO");
-document.tortas.cremas.options[5]=new Option("COMBO NAVIDAD DOLCE - N°1","COMBO NAVIDAD DOLCE - N°1");
-document.tortas.cremas.options[6]=new Option("COMBO NAVIDAD DOLCE - N°2","COMBO NAVIDAD DOLCE - N°2");
 
 break;
 
+case "PARA REGALAR PACK N°2" :
+document.tortas.cremas.options[0]=new Option("-- ELIJA UN TAMAÑO --","-- ELIJA UN TAMAÑO --");
+document.tortas.cremas.options[1]=new Option("PAN CHIPS GRANDE + BUDIN INGLES","PAN CHIPS GRANDE + BUDIN INGLES");
+document.tortas.cremas.options[2]=new Option("PAN CHIPS GRANDE + BUDIN RELLENO","PAN CHIPS GRANDE + BUDIN RELLENO");
+
+break;
+
+case "COMBO DOLCE" :
+document.tortas.cremas.options[0]=new Option("-- ELIJA UN TAMAÑO --","-- ELIJA UN TAMAÑO --");
+document.tortas.cremas.options[1]=new Option("COMBO NAVIDAD DOLCE - N°1","COMBO NAVIDAD DOLCE - N°1");
+document.tortas.cremas.options[2]=new Option("COMBO NAVIDAD DOLCE - N°2","COMBO NAVIDAD DOLCE - N°2");
+
+break;
+		
 }
 return true;
 }
