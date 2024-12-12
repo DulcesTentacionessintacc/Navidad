@@ -121,23 +121,23 @@ else if (listacremas == "BOMBAS" && cremas == "BOMBAS CREMAS X 12"){
 else if (listacremas == "BOMBAS" && cremas == "BOMBAS MIXTAS X 12"){
   document.getElementById("salida").innerHTML = "$11000";
 }
-else if (listacremas == "COMBO NAVIDEÑO" && cremas == "PAN RELLENO GRANDE + BUDIN INGLES"){
-  document.getElementById("salida").innerHTML = "$26900";
+else if (listacremas == "PARA REGALAR PACK N°1" && cremas == "PAN RELLENO GRANDE + BUDIN INGLES"){
+  document.getElementById("salida").innerHTML = "$25800";
 }
-else if (listacremas == "COMBO NAVIDEÑO" && cremas == "PAN RELLENO GRANDE + BUDIN RELLENO"){
-  document.getElementById("salida").innerHTML = "$25250";
+else if (listacremas == "PARA REGALAR PACK N°1" && cremas == "PAN RELLENO GRANDE + BUDIN RELLENO"){
+  document.getElementById("salida").innerHTML = "$25800";
 }
-else if (listacremas == "COMBO NAVIDEÑO" && cremas == "PAN CHIPS GRANDE + BUDIN INGLES"){
-  document.getElementById("salida").innerHTML = "$27150";
-}
-else if (listacremas == "COMBO NAVIDEÑO" && cremas == "PAN CHIPS GRANDE + BUDIN RELLENO"){
+else if (listacremas == "PARA REGALAR PACK N°2" && cremas == "PAN CHIPS GRANDE + BUDIN INGLES"){
   document.getElementById("salida").innerHTML = "$25500";
 }
-else if (listacremas == "COMBO NAVIDEÑO" && cremas == "COMBO NAVIDAD DOLCE - N°1"){
+else if (listacremas == "PARA REGALAR PACK N°2" && cremas == "PAN CHIPS GRANDE + BUDIN RELLENO"){
+  document.getElementById("salida").innerHTML = "$25500";
+}
+else if (listacremas == "COMBO DOLCE" && cremas == "COMBO NAVIDAD DOLCE - N°1"){
   document.getElementById("salida").innerHTML = "$30000";
 }
-else if (listacremas == "COMBO NAVIDEÑO" && cremas == "COMBO NAVIDAD DOLCE - N°2"){
-  document.getElementById("salida").innerHTML = "$57000";
+else if (listacremas == "COMBO DOLCE" && cremas == "COMBO NAVIDAD DOLCE - N°2"){
+  document.getElementById("salida").innerHTML = "$55000";
 }
 else if (listacremas == "PAN CHIPS"){
   document.getElementById("des1").innerHTML = "CHIPS DE CHOCOLATE<br><br>Peso aprox. 450 gr.<br>";
