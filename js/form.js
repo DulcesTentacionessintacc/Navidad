@@ -142,10 +142,10 @@ else if (listacremas == "PARA REGALAR PACK N°2" && cremas == "PAN CHIPS GRANDE 
 else if (listacremas == "PARA REGALAR PACK N°2" && cremas == "PAN CHIPS GRANDE + BUDIN RELLENO"){
   document.getElementById("salida").innerHTML = "$25500";
 }
-else if (listacremas == "COMBO DOLCE N°1" && cremas == "COMBO NAVIDAD DOLCE - N°1"){
+else if (listacremas == "COMBO DOLCE N°1" && cremas == "UNICA OPCION"){
    document.getElementById("salida").innerHTML = "$30000";
 }
-else if (listacremas == "COMBO DOLCE N°2" && cremas == "COMBO NAVIDAD DOLCE - N°2"){
+else if (listacremas == "COMBO DOLCE N°2" && cremas == "UNICA OPCION"){
   document.getElementById("salida").innerHTML = "$55000";
 }
 else if (listacremas == "PAN CHIPS"){
