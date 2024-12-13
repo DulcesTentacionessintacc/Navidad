@@ -200,7 +200,6 @@ document.querySelector("#submit").addEventListener("click", e => {
   let listacremas = document.querySelector("#listacremas").value;
   let cremas = document.querySelector("#cremas").value;
   let fechas = document.querySelector("#fechas").value;
-  let horario = document.querySelector("#horario").value;
   let salida = document.querySelector("#salida").innerHTML;
   let resp = document.querySelector("#respuesta");
 
