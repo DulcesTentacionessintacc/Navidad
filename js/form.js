@@ -180,11 +180,11 @@ else if (listacremas == "PARA REGALAR PACK N°2"){
 }
 else if (listacremas == "COMBO DOLCE N°1"){
   document.getElementById("des1").innerHTML = "MIGAS POR 6 UNIDADES<br><br>1 PAN CHICO A ELECCION (Chips o Relleno)<br><br> 1 BUDIN A ELECCION (Ingles o Relleno)";
-  imagenTorta.innerHTML = '<img src="dolce.png" alt="Torta Rogel" class="imgTorta" />';
+  imagenTorta.innerHTML = '<img src="dolce.jpg" alt="Torta Rogel" class="imgTorta" />';
 }
 else if (listacremas == "COMBO DOLCE N°2"){
   document.getElementById("des1").innerHTML = "MIGAS POR 12 UNIDADES<br><br> 1 PANETONNE CHICO<br><br>1 PAN CHICO A ELECCION(Chips  o Relleno)<br><br>1 BUDIN A ELECCION (Ingles o Relleno)";
-  imagenTorta.innerHTML = '<img src="dolce.png" alt="Torta Rogel" class="imgTorta" />';
+  imagenTorta.innerHTML = '<img src="dolce2.jpg" alt="Torta Rogel" class="imgTorta" />';
 }
 
 else{}
